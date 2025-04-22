@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOC Serviços Elétricos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content logo-hero">
+            <img src="logo.png" alt="Logo MOC Serviços Elétricos" class="logo-img">
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>
+                    <a href="javascript:void(0);" id="openModalBtn1">Instalação/Reforma de PC</a>
+                </h3>
+                <p>Evite curtos circuitos e até mesmo incêndios. Tenha um PC de Luz adequado às normas atualizadas das concessionárias de energia, tanto predial quanto comercial.</p>
+            </div>
+            <div class="service-item">
+                <h3>
+                    <a href="javascript:void(0);" id="openModalBtn2">Baixa Tensão</a>
+                </h3>
+                <p>Realizamos instalações de quadros elétricos especiais, quadros elétricos e de bombas, e para-raios (instalação, manutenção e laudo SPDA).</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal para Instalação e Reforma de PC de Luz -->
+    <div id="myModal1" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeBtn1">&times;</span>
+            <h3>Instalação e Reforma de PC de Luz</h3>
+            <div class="modal-images">
+                <img src="2.png" alt="Imagem 2">
+                <img src="3.png" alt="Imagem 3">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para Baixa Tensão -->
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeBtn2">&times;</span>
+            <h3>Baixa Tensão</h3>
+            <div class="modal-images">
+                <img src="4.png" alt="Imagem 5">
+                <img src="5.png" alt="Imagem 6">
+            </div>
+        </div>
+    </div>
+    
+    <section id="sobre" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Eletricista experiente que oferece serviços elétricos de alta qualidade, com a missão de garantir a segurança e satisfação dos clientes.</p>
+    </section>
+
+    <section id="feedback" class="feedback">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="feedback-container">
+            <div class="feedback-item">
+                <img src="cliente1.png" alt="Feedback Cliente 1" class="client-image">
+            </div>
+            <div class="feedback-item">
+                <img src="cliente2.png" alt="Feedback Cliente 2" class="client-image">
+            </div>
+            <div class="feedback-item">
+                <img src="cliente3.png" alt="Feedback Cliente 3" class="client-image">
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:moiseso.decarvalho@gmail.com">moiseso.decarvalho@gmail.com</a></p>
+        <p>Telefone: <a href="tel:+5521991262727">(21) 99126-2727</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/moc.servicoseletricos/">moc.servicoseletricos</a></p>
+        
+        <!-- Botão WhatsApp -->
+        <a href="https://wa.me/5521991262727?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços." target="_blank" id="whatsapp-btn">
+            <button>Entrar em contato pelo WhatsApp</button>
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MOC Serviços Elétricos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
